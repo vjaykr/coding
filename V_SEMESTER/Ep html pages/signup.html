@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2a2a2a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .signup-form {
+            background-color: #3a3a3a;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+        }
+
+        .signup-form h2 {
+            background-color: #ffa500;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin: -20px -20px 20px -20px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .signup-form label {
+            color: #f9f9f9;
+            margin-top: 10px;
+            display: block;
+        }
+
+        .signup-form input,
+        .signup-form select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .signup-form input[type="radio"] {
+            width: auto;
+            margin: 0 10px 0 0;
+        }
+
+        .signup-form .gender {
+            display: flex;
+            align-items: center;
+        }
+
+        .signup-form .gender label {
+            margin: 0;
+            padding: 0;
+        }
+
+        .signup-form .buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .signup-form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .signup-form .submit {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .signup-form .cancel {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .signup-form .terms {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .signup-form .terms input {
+            width: auto;
+            margin: 0 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <form class="signup-form">
+        <h2>Sign Up</h2>
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Enter First Name...">
+        
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Enter Last Name...">
+        
+        <label for="screen-name">Screen Name</label>
+        <input type="text" id="screen-name" name="screen-name" placeholder="Enter Screen Name...">
+        
+        <label for="dob">Date of Birth</label>
+        <div style="display: flex; gap: 10px;">
+            <select id="dob-month" name="dob-month">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <select id="dob-day" name="dob-day">
+                <!-- Generate options for days 1-31 -->
+                <script>
+                    for (var i = 1; i <= 31; i++) {
+                        document.write('<option value="' + i + '">' + i + '</option>');
+                    }
+                </script>
+            </select>
+            <select id="dob-year" name="dob-year">
+                <!-- Generate options for years 1900-2023 -->
+                <script>
+                    for (var i = 2023; i >= 1900; i--) {
+                        document.write('<option value="' + i + '">' + i + '</option>');
+                    }
+                </script>
+            </select>
+        </div>
+        
+        <label for="gender">Gender</label>
+        <div class="gender">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country" placeholder="USA">
+        
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Enter E-mail...">
+        
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Phone...">
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter Password...">
+        
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password...">
+        
+        <div class="terms">
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">I agree to the Terms of Use</label>
+        </div>
+        
+        <div class="buttons">
+            <button type="submit" class="submit">Submit</button>
+            <button type="button" class="cancel">Cancel</button>
+        </div>
+    </form>
+</body>
+</html>

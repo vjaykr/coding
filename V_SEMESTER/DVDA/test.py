@@ -1,0 +1,1 @@
+print("asus rog strix g15")
