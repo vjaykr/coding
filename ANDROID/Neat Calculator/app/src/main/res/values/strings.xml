@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">neat1stcalculator</string>
+    <string name="enter_first_number">enter first number</string>
+    <string name="enter_second_number">enter second number</string>
+    <string name="answer">answer</string>
+    <string name="add">add</string>
+    <string name="substract">substract</string>
+    <string name="multiply">multiply</string>
+    <string name="divide">divide</string>
+    <string name="name">Name</string>
+</resources>
