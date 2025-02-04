@@ -1,0 +1,19 @@
+class node{
+
+    int data;
+    node next;
+}
+
+node nodename = new node();
+
+
+nodename.data = 10;
+
+
+currentnode.next = nextnode;
+
+
+node head = new node();
+head.data = 10;
+
+node nodename = new node(val);
