@@ -26,7 +26,7 @@ def merge_sort(arr):
                 arr[k] = right[j]
                 j += 1
             k += 1
-        
+        #its working
         # Copy remaining elements from left
         while i < len(left):
             print(f"  Copying remaining left[{i}] ({left[i]}) → position {k}")
