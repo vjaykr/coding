@@ -1,33 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>1902</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Explanation</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        header, footer { background: #f8f8f8; padding: 10px; text-align: center; }
+        nav { background: #a93c3c; padding: 10px; }
+        nav a { color: white; margin: 10px; text-decoration: none; }
+        section { margin: 20px 0; }
+    </style>
 </head>
 <body>
-    <a href="index.php">Home</a>
-    <img src="1902.jpg" alt="1902">
-    <video width="320" height="240" controls>
-        <source src="1902.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to HTML Tags Explanation</h1>
+    </header>
 
-    <input type="button" value="Go back!" onclick="history.back()">
-    <label for="cars">Choose a car:</label>
-    <form>
-        <select name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="fiat">Fiat</option>
-            <option value="audi">Audi</option>
-        </select>
-    </form>
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#text-formatting">Text Formatting</a>
+        <a href="#lists">Lists</a>
+        <a href="#tables">Tables</a>
+        <a href="#forms">Forms</a>
+    </nav>
 
-    <button></button>
-    <ul></ul>
-    <ol></ol>
-    
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>This page demonstrates various HTML tags and their explanations.</p>
+        <p>HTML is the standard markup language for creating web pages.</p>
+    </section>
 
+    <!-- Text Formatting Section -->
+    <section id="text-formatting">
+        <h2>Text Formatting</h2>
+        <p><strong>Bold Text:</strong> <b>This is bold text.</b></p>
+        <p><em>Italic Text:</em> <i>This is italic text.</i></p>
+        <p><u>Underlined Text:</u> <u>This is underlined text.</u></p>
+        <p><del>Deleted Text:</del> <del>This is deleted text.</del></p>
+        <p><ins>Inserted Text:</ins> <ins>This is inserted text.</ins></p>
+        <p><mark>Highlighted Text:</mark> <mark>This text is highlighted.</mark></p>
+        <p>Subscript: H<sub>2</sub>O &amp; Superscript: 10<sup>2</sup></p>
+    </section>
+
+    <!-- Lists Section -->
+    <section id="lists">
+        <h2>Lists</h2>
+        <h3>Ordered List</h3>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+        </ul>
+        <h3>Definition List</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+    </section>
+
+    <!-- Table Section -->
+    <section id="tables">
+        <h2>Tables</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+                <td>Canada</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Forms Section -->
+    <section id="forms">
+        <h2>Forms</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female<br><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 HTML Learning Page</p>
+    </footer>
 </body>
 </html>
