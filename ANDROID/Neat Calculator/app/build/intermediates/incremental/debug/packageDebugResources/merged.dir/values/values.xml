@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add">add</string>
+    <string name="answer">answer</string>
+    <string name="app_name">neat1stcalculator</string>
+    <string name="divide">divide</string>
+    <string name="enter_first_number">enter first number</string>
+    <string name="enter_second_number">enter second number</string>
+    <string name="multiply">multiply</string>
+    <string name="name">Name</string>
+    <string name="substract">substract</string>
+    <style name="Base.Theme.Neat1stcalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Neat1stcalculator" parent="Base.Theme.Neat1stcalculator"/>
+</resources>

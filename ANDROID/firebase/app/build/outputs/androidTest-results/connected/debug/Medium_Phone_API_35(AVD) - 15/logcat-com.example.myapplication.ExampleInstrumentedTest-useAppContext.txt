@@ -1,0 +1,152 @@
+12-20 12:34:10.799  6159  6183 I TestRunner: started: useAppContext(com.example.myapplication.ExampleInstrumentedTest)
+12-20 12:34:10.805  6159  6159 I MonitoringInstr: Finishing activity: com.example.myapplication.MainActivity@30358de
+12-20 12:34:10.818  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:10.821  1659  1659 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=7, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+12-20 12:34:10.829  6159  6159 D LifecycleMonitor: Lifecycle status change: com.example.myapplication.MainActivity@30358de in: PAUSED
+12-20 12:34:10.831   445   445 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+12-20 12:34:10.869  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:10.895  1659  1659 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+12-20 12:34:10.896  1659  1659 D BaseDepthController: mSurface is null and mCurrentBlur is: 23
+12-20 12:34:10.922  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:10.925  1659  1659 D BaseDepthController: setSurface:
+12-20 12:34:10.925  1659  1659 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+12-20 12:34:10.925  1659  1659 D BaseDepthController: 	mSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0x77a166b
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: Failed to set whitelist for augmented autofill service.
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: java.lang.SecurityException: caller is not user's Augmented Autofill Service
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at android.view.autofill.AutofillManager.setAugmentedAutofillWhitelist(AutofillManager.java:2858)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at ema.c(PG:66)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at emw.h(PG:81)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at enl.a(PG:193)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at smp.a(PG:5)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at snf.a(PG:59)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at aatg.a(PG:5)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at aatf.a(PG:130)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at syc.b(PG:82)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at syc.a(PG:3)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at aarj.g(PG:289)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at aari.b(PG:13)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at aaer.g(PG:13)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at kotlinx.coroutines.DispatchedTask.run(PG:114)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at wqm.a(PG:3)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at wpo.run(PG:21)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at wqn.run(PG:5)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at hqv.run(PG:221)
+12-20 12:34:10.967  1886  2911 W AiAiAutofill: 	at java.lang.Thread.run(Thread.java:1012)
+12-20 12:34:10.970  6159  6184 D EGL_emulation: app_time_stats: avg=121.92ms min=14.07ms max=874.32ms count=10
+12-20 12:34:10.974  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.008  1659  1659 D StatsLog: LAUNCHER_ONRESUME
+12-20 12:34:11.027  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.032   666  1939 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+12-20 12:34:11.044  1659  1686 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:67)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:28)
+12-20 12:34:11.052  1659  2465 D OneSearchSuggestProvider: 	... 8 more
+12-20 12:34:11.060  1659  2465 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=i1{delegate=f{logId=39, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=l2.Z@1ed5e20
+12-20 12:34:11.085  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.086  1659  2127 D EGL_emulation: app_time_stats: avg=38983.50ms min=26.12ms max=428445.62ms count=11
+12-20 12:34:11.109  1886  1997 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+12-20 12:34:11.110  1886  1997 I AiAiEcho: EchoTargets:
+12-20 12:34:11.110  1886  1997 I AiAiEcho: Filtered by AiAi flag check:
+12-20 12:34:11.110  1886  1997 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+12-20 12:34:11.110  1886  1997 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+12-20 12:34:11.110  1886  1997 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-20 12:34:11.111  1886  1997 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+12-20 12:34:11.137  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.151   666   892 I ImeTracker: com.google.android.apps.nexuslauncher:f97f1e22: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+12-20 12:34:11.157   666   892 I ImeTracker: com.google.android.apps.nexuslauncher:f97f1e22: onCancelled at PHASE_SERVER_SHOULD_HIDE
+12-20 12:34:11.166  1783  1783 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157
+12-20 12:34:11.189  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.187  1783  1783 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+12-20 12:34:11.190  1783  1783 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+12-20 12:34:11.196  1783  1783 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+12-20 12:34:11.198  2007  2007 I A       : (REDACTED) Created gRPC endpoint for service %s
+12-20 12:34:11.201  1783  1783 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+12-20 12:34:11.214   401   495 I RanchuHwc: logCompositionFallbackIfChanged: layer 51 CompositionType fallback from 2 to 1
+12-20 12:34:11.242  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.317  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.370  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.419  1659  1659 D SsBaseTemplateCard: No text view can be set up
+12-20 12:34:11.419  1659  1659 D SsBaseTemplateCard: Passed-in item info is null
+12-20 12:34:11.419  1659  1659 D SsBaseTemplateCard: Passed-in item info is null
+12-20 12:34:11.419  1659  1659 D SsBaseTemplateCard: Passed-in item info is null
+12-20 12:34:11.419  1659  1659 I SsBaseTemplateCard: Secondary card pane is null
+12-20 12:34:11.422  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.451  6159  6159 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+12-20 12:34:11.480  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.532  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.546  2007  2243 W A       : Can't get server tokens
+12-20 12:34:11.546  2007  2243 W A       : java.util.concurrent.CancellationException: Task was cancelled.
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.d.s(PG:33)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.d.get(PG:3)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.dw.a(PG:2)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.co.r(PG:10)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.android.apps.search.googleapp.y.a.a.call(PG:48)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.apps.tiktok.tracing.fg.call(PG:13)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.bb.a(PG:3)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.cu.run(PG:21)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.be.execute(PG:1)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.bc.f(PG:3)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.bd.i(PG:5)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.m.h(PG:53)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.l.run(PG:5)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.be.execute(PG:1)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.d.i(PG:1)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.d.l(PG:95)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.d.n(PG:15)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.az.i(PG:43)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.m.h(PG:53)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.k.run(PG:24)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.be.execute(PG:1)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.d.i(PG:1)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.d.l(PG:95)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.util.concurrent.d.n(PG:15)
+12-20 12:34:11.546  2007  2243 W A       : 	at kotlinx.coroutines.c.c.lK(PG:5)
+12-20 12:34:11.546  2007  2243 W A       : 	at kotlinx.coroutines.a.lL(PG:19)
+12-20 12:34:11.546  2007  2243 W A       : 	at kotlinx.coroutines.db.c(PG:43)
+12-20 12:34:11.546  2007  2243 W A       : 	at kotlinx.coroutines.db.H(PG:5)
+12-20 12:34:11.546  2007  2243 W A       : 	at kotlinx.coroutines.a.q(PG:5)
+12-20 12:34:11.546  2007  2243 W A       : 	at n.c.b.a.a.q(PG:36)
+12-20 12:34:11.546  2007  2243 W A       : 	at kotlinx.coroutines.bh.run(PG:104)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.apps.tiktok.f.y.run(PG:3)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.apps.tiktok.tracing.fl.run(PG:24)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.android.libraries.k.x.run(PG:3)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.common.n.c.c.run(PG:50)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.android.libraries.k.e.run(PG:8)
+12-20 12:34:11.546  2007  2243 W A       : 	at java.lang.Thread.run(Thread.java:1012)
+12-20 12:34:11.546  2007  2243 W A       : 	at com.google.android.libraries.k.d.b.run(PG:74)
+12-20 12:34:11.586  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.626  6159  6164 I e.myapplication: Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+12-20 12:34:11.637  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.688  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.740  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.792  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.849  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.900  6159  6183 I MonitoringInstr: Unstopped activity count: 1
+12-20 12:34:11.907  6159  6159 D LifecycleMonitor: Lifecycle status change: com.example.myapplication.MainActivity@30358de in: STOPPED
+12-20 12:34:11.919  6159  6159 D LifecycleMonitor: Lifecycle status change: com.example.myapplication.MainActivity@30358de in: DESTROYED
+12-20 12:34:11.922  6159  6159 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@5d572d3
+12-20 12:34:11.934   666  2703 W InputManager-JNI: Input channel object 'e5f36a8 com.example.myapplication/com.example.myapplication.MainActivity (client)' was disposed without first being removed with the input manager!
+12-20 12:34:11.957  6159  6183 I TestRunner: finished: useAppContext(com.example.myapplication.ExampleInstrumentedTest)

@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable img
+id addb
+id divideb
+id imageView2
+id main
+id multiplyb
+id substractb
+id text1
+id text2
+id text3
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string add
+string answer
+string app_name
+string divide
+string enter_first_number
+string enter_second_number
+string multiply
+string name
+string substract
+style Base.Theme.Neat1stcalculator
+style Theme.Neat1stcalculator
+xml backup_rules
+xml data_extraction_rules
