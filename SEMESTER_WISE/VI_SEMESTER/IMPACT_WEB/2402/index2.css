@@ -3,7 +3,7 @@
     background-color: rgba(141, 10,204, 0.3);
 
     background-image:url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1msKEv.img) ;
-    background-size: 400px;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
@@ -14,6 +14,11 @@
 
 h1{
     font-size: 100px;
-    color: rgb(0, 0, 0);
+    color: rgb(243, 7, 7);
     text-align: center;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 1px;
+}
+p{
+    word-spacing: 20px;
 }

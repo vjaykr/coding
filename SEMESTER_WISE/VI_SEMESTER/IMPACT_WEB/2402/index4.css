@@ -1,0 +1,27 @@
+#logo {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+}
+
+nav{
+    background-color:  blue;
+
+}
+
+#Searchbar{
+    width: 200px;
+    padding: 5px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: none;
+    flex-grow: 1;
+}
+
+.nav-links{
+   font-size: 30px;
+   text-align: center;
+
+}
+
+
