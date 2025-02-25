@@ -1,0 +1,50 @@
+.container{
+    width: 50%;
+    
+    background-color: black;
+    color: white;
+    margin: 10px auto;
+
+    display: flex
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container h2{
+    width: 100%;
+    font-size: 20px;
+    
+    text-align: center;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+table,thead,tr,th,td{
+    border: 1px solid black;
+    text-align: center;
+
+    
+}
+
+
+table thead{
+    background-color: rgb(33, 178, 93);
+    color: white;
+}
+
+table tbody{
+    height: 20px;
+    
+}
+
+
+table tbody tr:hover{
+    background-color: rgb(178, 33, 33);
+    color: white;
+}
