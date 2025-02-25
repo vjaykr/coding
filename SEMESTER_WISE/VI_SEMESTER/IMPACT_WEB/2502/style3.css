@@ -8,17 +8,29 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
-    background-color: aqua;
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     align-items: center;
     justify-content:center;
 }
 
 .container{
     width: 300px;
-    
-    background-color: grey;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 0%;
 }
 
+.container form{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
 .field{
     width: 98%;
     
