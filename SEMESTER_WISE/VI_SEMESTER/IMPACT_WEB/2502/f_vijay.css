@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
@@ -9,7 +8,6 @@ body {
     height: 100vh;
 }
 
-/* Main Container */
 .container {
     display: flex;
     justify-content: space-between;
@@ -17,7 +15,6 @@ body {
     max-width: 1000px;
 }
 
-/* Left Section (Facebook Text) */
 .left-section {
     width: 50%;
     padding: 20px;
@@ -35,7 +32,6 @@ body {
     margin-top: 10px;
 }
 
-/* Right Section (Login Form) */
 .right-section {
     width: 40%;
     display: flex;
@@ -43,7 +39,6 @@ body {
     align-items: center;
 }
 
-/* Login Box */
 .login-box {
     background: #fff;
     padding: 20px;
@@ -111,7 +106,6 @@ hr {
     background: #36a420;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     .container {
         width: 90%;
