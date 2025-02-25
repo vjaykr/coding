@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 225, 225);
+}
+
+.container{
+    width: 50%;
+   
+   ;
+    color: rgb(205, 53, 53);
+    margin: 10px auto;
+
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.container h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+table,thead,tr,th,td{
+    border: 1px solid black;
+    text-align: center;
+
+    
+}
+
+
+table thead{
+    background-color: rgb(33, 178, 93);
+    color: white;
+}
+
+table tbody{
+    height: 20px;
+    
+}
+
+
+table tbody tr:hover{
+    background-color: rgb(178, 33, 33);
+    color: white;
+}
