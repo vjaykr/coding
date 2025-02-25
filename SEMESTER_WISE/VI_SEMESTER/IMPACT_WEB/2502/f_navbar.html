@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="f_navbar.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav_logo">
+            <img src="./images/logo.svg" alt="">
+        </div>
+        <!-- Search bar -->
+        <div class="nav_search_container">
+            <div class="nav_search_icon">
+                <img src="./images/search.svg" alt="">
+            </div>
+            <div class="nav_search_bar">
+                <input type="search" placeholder="Search for Products, Brands and More">
+            </div>
+        </div>
+
+        <!-- Login cotainer -->
+        <div class="nav_login_container">
+            <div class="nav_login_icon">
+                <img src="./images/profile.svg" alt="">
+            </div>
+
+            <div class="nav_login_link">
+                <a href="">Login</a>
+            </div>
+        </div>
+
+        <!-- cart container -->
+        <div class="nav_cart_container">
+            <div class="nav_cart_icon">
+                <img src="./images/cart.svg" alt="">
+            </div>
+
+            <div class="nav_cart_link">
+                <a href="">Cart</a>
+            </div>
+        </div>
+
+        <div class="nav_seller_container">
+            <div class="nav_seller_icon">
+                <img src="./images/store.svg" alt="">
+            </div>
+            <div class="nav_seller_link">
+                <a href="">Become a seller</a>
+            </div>
+        </div>
+        <div class="nav_dots_container">
+            <img src="./images/dots.svg" alt="">
+        </div>
+    </div>
+
+    <div class="categories_container">
+
+    </div>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="images/1.png" ></div>
+        <div class="item"><img src="images/2.png" ></div>
+        <div class="item"><img src="images/3.png" ></div>
+        <div class="item"><img src="images/4.png" ></div>
+        
+       
+        
+       
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:1
+        }
+    }
+})</script>
+</body>
+</html>

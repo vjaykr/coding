@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f5ff;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0.5px 0.5px 5px #f0f5ff;
+}
+
+.nav_logo {
+    width: 300px;
+    /* background-color: orange; */
+
+}
+
+.nav_logo img {
+    margin-left: 30px;
+}
+
+.nav_search_container {
+    width: 450px;
+    height: 40px;
+    background-color: #f0f5ff;
+    display: flex;
+    align-items: center;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.nav_search_icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_search_icon img {
+    width: 25px;
+    height: 25px;
+}
+
+.nav_search_bar {
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.nav_search_bar input[type="search"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #f0f5ff;
+}
+
+.nav_search_bar input[type="search"]:focus {
+    outline: none;
+    border: none;
+    
+}
+
+.nav_search_bar input[type="search"]::placeholder {
+    font-size: 16.5px;
+}
+
+.nav_login_container {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    /* background-color: orange; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_cart_container {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    /* background-color: orange; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_seller_container {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    /* background-color: orange; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_dots_container {
+    margin-right: 20px;
+}
+
+.nav_login_link a{
+    text-decoration: none;
+    color: black;
+    font-size: 16.5px;
+}
+
+.nav_cart_link a{
+    text-decoration: none;
+    color: black;
+    font-size: 16.5px;
+}
+
+.nav_seller_link a{
+    text-decoration: none;
+    color: black;
+    font-size: 16.5px;
+}
+
+.categories_container {
+    width: 100%;
+    background-color: #ffffff;
+    height: 150px;
+    margin: 10px auto;
+}
