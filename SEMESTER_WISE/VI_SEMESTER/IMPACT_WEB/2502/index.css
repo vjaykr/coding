@@ -1,0 +1,19 @@
+.container
+{
+    background-color: aqua;
+}
+
+.container h1
+{
+    color: red;
+}
+
+.container-2
+{
+    color: blue;
+}
+
+.container-2 h1,p
+{
+    color: green;
+}
