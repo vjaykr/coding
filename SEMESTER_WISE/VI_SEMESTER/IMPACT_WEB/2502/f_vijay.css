@@ -112,10 +112,33 @@ hr {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    .left-section h1 {
+        font-size: 40px;
+    }
+
+    .left-section p {
+        font-size: 18px;
+    }
+
+    .login-box input {
+        font-size: 14px;
+    }
+
+    .login-btn, .create-account {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .left-section {
@@ -126,4 +149,44 @@ hr {
     .right-section {
         width: 100%;
     }
+
+    .left-section h1 {
+        font-size: 35px;
+    }
+
+    .left-section p {
+        font-size: 16px;
+    }
+
+    .login-box input {
+        font-size: 14px;
+    }
+
+    .login-btn, .create-account {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .left-section h1 {
+        font-size: 30px;
+    }
+
+    .left-section p {
+        font-size: 14px;
+    }
+
+    .login-box input {
+        font-size: 12px;
+    }
+
+    .login-btn, .create-account {
+        font-size: 14px;
+    }
+}
+
+h1 {
+    font-size: 50px;
+    color: #1877f2;
+    margin: 0;
 }
