@@ -1,0 +1,6 @@
+Hello, this is a sample text file.
+It contains several numbers: 123, 456, and 789.
+Here are some more numbers in a line: 10 20 30.
+Look at this line: The year 2025 marks a new era.
+Random numbers: 31415, 27182, and even 42 are present.
+End of file.
