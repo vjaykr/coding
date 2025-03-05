@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1msMpx.img");
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    background-color:rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    border-radius: 18px; /* Add some space between the boxes */
+}
+
+h1 {
+    font-size: 8rem; /* Ensure this is in the correct place */
+    text-align: center;
+    margin: 0; /* Reset margin to ensure correct sizing */
+    padding: 0; /* Reset padding to ensure correct sizing */
+}
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
