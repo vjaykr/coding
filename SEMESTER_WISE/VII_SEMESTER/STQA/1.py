@@ -1,21 +1,23 @@
-# Defne the function
 def is_valid_age(age):
-	if 18 <= age <= 60:
-		return "Valid"
-	else:
-		return "Invalid"
-# Defne test cases using Equivalence Class Partitioning
+    if 18 <= age <= 60:
+        return "Valid"
+    else: 
+        return "Invalid"
+
+#Define test cases
 test_cases = [
-	(30, "Valid"), # Valid range middle value
-	(17, "Invalid"), # Just below the valid range
-	(10, "Invalid"), # Well below the valid range
-	(61, "Invalid"), # Just above the valid range
-	(70, "Invalid")
-	 # Well above the valid range
+    (18, "Valid"), # Minium boundary
+    (17, "Invalid"), # Just below minimum boundary
+    (19, "Valid"), # Just above minimum boundary
+    (59, "Valid"), # Just below maximum boundary
+    (60, "Valid"), # Maximum boundary
+    (61, "Invalid") # Just above maximum boundary
 ]
+
 # Run test cases
 for i, (age, expected) in enumerate(test_cases):
-	result = is_valid_age(age)
-	assert result == expected, f"Test case {i+1} failed: age={age}, expected={expected}, got={result}"
-	print(f"Test case {i+1} passed: age={age}, expected={expected}, got={result}")
+    result = is_valid_age(age)
+    assert result == expected, f"Test case {i+1} failed: age={age}, expected {expected}"
+    print(f"Test case {i+1} passed: age={age}, expected {expected}, got = {result}")
+
 print("All test cases passed!")
